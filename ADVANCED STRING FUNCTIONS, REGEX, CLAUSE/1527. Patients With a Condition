@@ -1,0 +1,2 @@
+sELECT * FROM Patients
+WHERE regexp_like(conditions, ' +DIAB1|^DIAB1')
